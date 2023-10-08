@@ -93,8 +93,8 @@ header nav ul li a:hover {
 }
 
 .project img {
-    max-width: 300px; /* Adjust the width as needed */
-    height: auto;
+    max-width: 150px; /* Adjust the width as needed */
+    max-height: 200px;
     margin-right: 20px; /* Add some spacing between image and content */
 }
 
