@@ -86,21 +86,26 @@ header nav ul li a:hover {
     color: #333;
 }
 
-/* Project styles */
 
 .project {
+    display: flex;
     margin-bottom: 30px;
 }
 
 .project img {
-    max-width: 100%;
+    max-width: 300px; /* Adjust the width as needed */
     height: auto;
+    margin-right: 20px; /* Add some spacing between image and content */
 }
 
 .project h3 {
     font-size: 24px;
-    margin-top: 10px;
+    margin-top: 0;
     color: #333;
+}
+
+.project-content {
+    flex: 1; /* Allow the description to take up remaining space */
 }
 
 .project p {
